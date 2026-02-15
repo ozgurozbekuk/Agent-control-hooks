@@ -1,0 +1,20 @@
+{
+  "name": "agent-control-hooks",
+  "version": "0.1.2",
+  "description": "Framework-agnostic hook runtime for deterministic AI control",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./hooks": "./src/hooks/index.js",
+    "./runtime": "./src/runtime/index.js"
+  },
+  "scripts": {
+    "example:model": "node examples/model-basic.js",
+    "example:tool": "node examples/tool-policy.js",
+    "example:schema": "node examples/schema-guard.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}
