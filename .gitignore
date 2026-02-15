@@ -1,3 +1,7 @@
+# build / test artifacts
+tmp/
+*.tgz
+
 # node
 node_modules/
 npm-debug.log*
